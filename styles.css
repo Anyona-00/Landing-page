@@ -1,0 +1,64 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body{
+    background-color:rgb(209, 209, 209);
+  }
+.dez{
+height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1rem 1rem 1rem rgb(192, 126, 192);
+
+}
+
+#header{
+  justify-content: center;
+}
+
+
+#nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-color: blueviolet;
+  width: 59%;
+  height: 5rem;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  transition: transform 0.3s; /* Add a transition for smooth animation */
+
+  /* Initial state (no hover) */
+  transform: scale(1);
+ 
+}
+
+a:hover{
+  background-color: white;
+  border-radius: 9px;
+  transform: scale(1.1);
+}
+
+
+
+
+#video{
+  margin-top: 190px;
+    border-radius: 10px;
+    overflow: hidden;
+}
