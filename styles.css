@@ -45,6 +45,26 @@
 }
 
 
+.menu-icon {
+  display: none; 
+  cursor: pointer;
+}
+
+#nav-bar.show-menu {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  #nav-bar {
+    display: none; 
+  }
+}
+
+
+
 
 a{
   text-decoration: none;
