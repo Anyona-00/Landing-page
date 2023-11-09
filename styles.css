@@ -6,32 +6,42 @@
 
   body{
     background-color:rgb(209, 209, 209);
+    margin: 0;
   }
-.dez{
-height: 100%;
-  width: 60%;
+.dez {
+  height: 70rem;
+  width: 60rem;
   margin: 0 auto;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 1rem 1rem 1rem rgb(192, 126, 192);
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(128, 128, 128));
 
+  border-radius: 1.2rem;
+  box-shadow: 1rem 1rem 1rem rgb(255, 255, 255);
+  padding: 2rem;
 }
 
+
 #header{
+  text-align: center;
   justify-content: center;
 }
 
 
 #nav-bar {
   position: fixed;
+
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
-  background-color: blueviolet;
-  width: 59%;
+  background: linear-gradient(to right, rgb(128, 128, 128), rgb(255, 255, 255));
+
+  width: 60rem;
   height: 5rem;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 1.8rem;
+  overflow: hidden;
+  z-index: 1000;
+ 
+  
 }
 
 
@@ -50,15 +60,99 @@ a{
 
 a:hover{
   background-color: white;
-  border-radius: 9px;
+  border-radius: 0.6rem;
   transform: scale(1.1);
 }
 
 
 
 
-#video{
-  margin-top: 190px;
-    border-radius: 10px;
-    overflow: hidden;
+#vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35rem; 
+  margin-top: 5rem;
+}
+#video {
+  max-width: 100%; /* Make sure the video doesn't exceed the viewport width */
+  border-radius: 1.7rem;
+  overflow: hidden;
+}
+
+.box-container {
+
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+
+margin-top: 1rem;
+}
+
+.box{
+  background-color: linear-gradient(to right, rgb(255, 255, 255), rgb(128, 128, 128));
+  border: solid 0.5px aquamarine;
+  flex: 1; /*  make the boxes the same size */
+  transition: 1s;
+  margin: 0 2rem;
+  padding: 2em;
+  max-width: 30%; /*  Limit the maximum width of each box */
+  border-radius: 1rem;
+  height: 10rem;
+}
+
+.box:hover {
+  transform: scale(0.9);
+  background-color: rgb(255, 255, 255);
+}
+
+
+#form{
+  background: linear-gradient(rgb(255, 255, 255), rgb(128, 128, 128));
+
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 5rem;
+  border-radius: 1rem;
+ 
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+#email{
+  height: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+}
+
+#submit{
+  height: 1.5rem;
+  margin: 1rem 2rem;
+}
+
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333; }
+
+h3{
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
 }

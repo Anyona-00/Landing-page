@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <title>Landing Page</title>
   </head>
 
@@ -13,20 +18,23 @@
       <header id="header">
         <nav id="nav-bar">
           <img
-            src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fd1csarkz8obe9u.cloudfront.net%2Fposterpreviews%2Ffashion-logo-template-design-1f02883fe2c6a93676bb017edf620222_screen.jpg%3Fts%3D1612804443&tbnid=DiHlMkjufDHezM&vet=12ahUKEwjrusXIlLSCAxU2U6QEHaUcDb8QMygAegQIARBL..i&imgrefurl=https%3A%2F%2Fwww.postermywall.com%2Findex.php%2Fart%2Ftemplate%2F1f02883fe2c6a93676bb017edf620222%2Ffashion-logo-template-design&docid=3Iu2rjkcbYo_sM&w=690&h=690&q=small%20fashion%20logo&ved=2ahUKEwjrusXIlLSCAxU2U6QEHaUcDb8QMygAegQIARBL"
+            src="https://cdn-icons-png.flaticon.com/128/9687/9687524.png"
             alt="logo"
             id="header-img"
+            width="50"
+            height="50"
           />
           <a href="#Collection" class="nav-link">Collection</a>
           <a href="#New_Arrivals" class="nav-link">New Arrivals</a>
           <a href="#Trending" class="nav-link">Trending</a>
         </nav>
       </header>
+
       <div id="vid">
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/1fUPSL0rOms"
+          src="https://www.youtube.com/embed/pYFM1r3spVU"
           frameborder="0"
           allowfullscreen
           id="video"
@@ -34,9 +42,27 @@
       </div>
 
       <div class="box-container">
-        <div class="box" id="Collection">Box 1</div>
-        <div class="box" id="New_Arrivals">Box 2</div>
-        <div class="box" id="Trending">Box 3</div>
+        <div class="box" id="Collection">
+          <h3>Men</h3>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/2535/2535658.png"
+            alt=""
+          />
+        </div>
+        <div class="box" id="New_Arrivals">
+          <h3>Women</h3>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1198/1198409.png"
+            alt=""
+          />
+        </div>
+        <div class="box" id="Trending">
+          <h3>Children</h3>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/3884/3884934.png"
+            alt=""
+          />
+        </div>
       </div>
 
       <form
@@ -44,6 +70,7 @@
         action="https://www.freecodecamp.com/email-submit"
         method="post"
       >
+        <p>Subscribe to our weekly news letter:</p>
         <input
           type="email"
           id="email"
@@ -52,7 +79,19 @@
           required
         />
 
-        <input type="submit" id="submit" />Submit
+        <input type="submit" id="submit" />
+
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
       </form>
     </div>
   </body>
