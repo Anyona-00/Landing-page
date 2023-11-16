@@ -4,11 +4,15 @@
     }
   }
 
+  
+
   body{
     background-color:rgb(209, 209, 209);
     margin: 0;
-  
+  padding: 0;
   }
+
+
 .dez {
   height: 70rem;
   width: 60rem;
@@ -46,23 +50,12 @@
 }
 
 
-.menu-icon {
-  display: none; 
-  cursor: pointer;
-}
 
-#nav-bar.show-menu {
-  display: flex;
-}
 
-@media screen and (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }
-  #nav-bar {
-    display: none; 
-  }
-}
+
+
+
+
 
 
 
