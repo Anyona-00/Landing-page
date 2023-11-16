@@ -1,3 +1,5 @@
+// index.js
+
 const menuToggle = document.getElementById("menu-toggle");
 const navBar = document.getElementById("nav-bar");
 
