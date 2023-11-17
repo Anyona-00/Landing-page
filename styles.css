@@ -55,7 +55,7 @@
   overflow: hidden;
   border-radius: 1.8rem;
   overflow: hidden;
-  z-index: 1000;
+  
  
   
 }
@@ -64,13 +64,13 @@
 
 .toggle-button{
   position: absolute;
-  top: .5rem;
+  top: 2rem;
   right: 1rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 21px;
-  height: 31px;
+  width: 31px;
+  height: 21px;
   border-radius: 10px;
   z-index: 1001;
 }
@@ -81,21 +81,6 @@
   background-color: #000000;
   border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -213,4 +198,60 @@ h3{
   display: flex;
   justify-content: center;
   margin-top: -1rem;
+}
+
+
+
+@media (max-width: 600px) {
+  .dez {
+    width: 90%; 
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 1rem; 
+   
+  }
+
+  #nav-bar {
+    width: 90%; 
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+   
+  }
+
+  .toggle-button {
+    display: flex; /* Show the toggle button on smaller screens */
+  }
+
+  .nav-link {
+    display: none; /* This hides the navigation links  */
+    flex-direction: column; 
+    width: 100%;
+  }
+
+  .nav-link.active {
+    display: flex; /* Show the navigation links when the active class is present */
+  }
+
+  #header-img{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .box{
+    margin-top: 1rem;
+  }
+
+  #form{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
