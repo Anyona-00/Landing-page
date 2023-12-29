@@ -1,3 +1,10 @@
+/*font*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Inter+Tight:wght@400;600;700&family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@100;400;600;700&display=swap');
+
+
+
+/*smooth scrolling*/
 @media (prefers-reduced-motion: no-preference) {
     * {
       scroll-behavior: smooth;
@@ -10,6 +17,7 @@
     background-color:rgb(209, 209, 209);
     margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
   }
 
 
